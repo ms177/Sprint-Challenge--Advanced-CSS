@@ -1,1 +1,40 @@
 // Navigation code here
+
+.display(@justify-content:space-between){
+    display: flex;
+    justify-content: @justify-content;
+}
+
+
+nav {
+    margin: auto;
+    background-color: @nav-bg;
+    .display;
+     flex-direction: column;
+     align-items: center;
+     padding: 1rem 0; 
+    
+    h1 {
+      
+      font-size: 3rem;;
+    
+    }
+  
+    .nav-bar {
+        width: 50%;
+        .display;
+        padding: 1.5rem 0;
+    }
+  
+    a {
+      width: 25%;
+      height: 100%;
+      
+      color: black;
+      font-size: 1.5rem;
+      text-decoration: none;
+      align-items: center;
+      
+    }   
+      
+    }
